@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#background {
+    width: 1440px;
+    height: 960px;
+    background-color: hsl(47, 88%, 63%);
+    margin: 0 auto;
+    position: relative;
+}
+#container-full {
+    width: 385px;
+    height: 518px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 218px;
+    left: 520px;
+    border-radius: 18px;
+    box-shadow: 4px 4px 0 6px hsl(0, 0%, 7%);
+}
+#image {
+    width: 325px;
+    height: 195px;
+    border-radius: 10px;
+    margin: 25px 0 15px 30px;
+}
+.title-1 {
+    margin-left: 30px;
+    width: 85px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 4px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 14px;
+    background-color: hsl(47, 88%, 63%);
+}
+.content-1 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    margin: 15px 0 15px 30px;
+}
+.content-2 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    margin: 20px 0 15px 30px;
+}
+.content {
+    margin: 15px 0 15px 30px;
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(0, 0%, 42%);
+    line-height: 30px;
+}
+#avatar {
+    width: 30px;
+}
+.profile {
+    margin: 0 0 0 30px;
+}
+#name {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin: -28px 0 0 40px;
+    font-size: 14px;
+}

@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+.container {
+    width: 560px;
+    height: 165px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.item-1 {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: hsl(234, 12%, 34%);
+    font-size: 35px;
+}
+.item-2 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: hsl(234, 12%, 34%);
+    font-size: 35px;
+    height: 65px;
+    padding: 3px;
+}
+.item-3 {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+}
+.container-1 {
+    width: 360px;
+    height: 250px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-left: 585px;
+    margin-top: 75px;
+    box-shadow: 1px 1px 15px 0 hsl(229, 6%, 66%);
+}
+.container-2 {
+    width: 360px;
+    height: 250px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-left: 585px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 15px 0 hsl(229, 6%, 66%);
+}
+.container-3 {
+    width: 360px;
+    height: 250px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: absolute;
+    top: 500px;
+    left: 195px;
+    box-shadow: 1px 1px 15px 0 hsl(229, 6%, 66%);
+}
+.container-4 {
+    width: 360px;
+    height: 250px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: absolute;
+    top: 500px;
+    left: 975px;
+    box-shadow: 1px 1px 15px 0 hsl(229, 6%, 66%);
+}
+.title {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    margin: 25px 0 10px 30px;
+}
+.content {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+    margin-left: 30px;
+}
+.images {
+    margin: 40px 0 0 260px;
+}
+footer {
+    margin-top: 500px;
+}
