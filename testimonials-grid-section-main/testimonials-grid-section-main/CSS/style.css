@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.full-container {
+    width: 1110px;
+    height: 570px;
+    margin: 150px 0 0 220px;
+    display: grid;
+    grid-template-columns: 825px 255px;
+    grid-template-rows: 572px;
+    column-gap: 30px;
+}
+.container-1 {
+    display: grid;
+    grid-template-columns: 255px 255px 255px 255px;
+    grid-template-rows: 282px 266px;
+    gap: 24px 30px;
+}
+.mini-container-1 {
+    grid-area: 1/ 1/ span 1/ span 2;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    z-index: -1;
+}
+.mini-container-1 > img {
+    position: absolute;
+    z-index: -1;
+    margin: -50px 0 0 350px;
+}
+.mini-container-2 {
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+}
+.mini-container-3 {
+    grid-area: 2/ 1/ span 1/span 1;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 2px 0px 40px 5px hsla(0, 0%, 81%, 0.4);
+}
+.mini-container-4 {
+    grid-area: 2/ 2/ span 1/ span 2;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+}
+.container-2 {
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 2px 0px 40px 5px hsla(0, 0%, 81%, 0.4);
+}
+.user-3,.user,.user-1,.user-2 {
+    height: 40px;
+    margin: 15px 0 0 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-3,.user,.user-1 {
+    width: 165px;
+}
+.user-2 {
+    width: 180px;
+}
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.image-1 {
+    width: 41px;
+    height: 41px;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+.image-2 {
+    width: 41px;
+    height: 41px;
+    border-radius: 20px;
+    border: 1px solid hsl(263, 55%, 52%);
+}
+.image-1 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.image > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.image-2 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.title,.title-1 > strong {
+    font-size: 15px;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+.title-1 > strong {
+    color: hsl(0, 0%, 100%);
+}
+.title > strong {
+    color: hsl(217, 19%, 35%);
+}
+.title,.title-1 > p {
+    font-size: 13px;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    color: hsl(0, 0%, 81%);
+}
+.para-1,.para-3 {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    margin: 15px 0 15px 25px;
+}
+.para-1 {
+    color: hsl(219, 29%, 14%);
+}
+.para-3 {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+}
+.para-2,.para-4,.para-5 {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    margin-left: 25px;
+}
+.para-2 {
+    width: 205px;
+    color: hsla(217, 19%, 35%, 0.6);
+}
+.para-4 {
+    width: 480px;
+    color: hsl(0, 0%, 81%);
+}
+.para-5 {
+    width: 205px;
+    color: hsl(0, 0%, 81%);
+}
+.attribution {
+    margin-top: 150px;
+}
