@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#container {
+    width: 1440px;
+    height: 3875px;
+    margin: 0 auto;
+    position: relative;
+}
+.image {
+    width: 100%;
+    height: 363px;
+    z-index: -1;
+}
+.sumbit-1 {
+    width: 695px;
+    height: 425px;
+    position: absolute;
+    top: 200px;
+    left: 375px;
+}
+#logo {
+    width: 125px;
+    height: 125px;
+    background-image: url("../images/logo.svg");
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+#title-1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin-bottom: 20px;
+}
+#content-1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.action {
+    width: 475px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#download-1,#download-2 {
+    width: 225px;
+    height: 55px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 15px 0 0 35px;
+    box-shadow: 0 2px 30px 2px ;
+}
+#download-1 {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px 0 1px hsl(164, 66%, 44%);
+}
+#download-2 {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 3px 0 1px hsl(245, 100%, 69%);
+}
+.sumbit-2 {
+    width: 700px;
+    height: 145px;
+    margin: 400px 0 0 375px;
+    margin-bottom: 80px;
+}
+.title-2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content-2,.content-4 {
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 30px;
+}
+#computer {
+    width: 722px;
+    height: 572px;
+    background-image: url("../images/image-computer.png");
+    background-position: -30px 0;
+}
+#version {
+    width: 350px;
+    height: 400px;
+    margin: -500px 0 260px 845px;
+}
+.version-0 {
+    margin-bottom: 65px;
+}
+.title-version {
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 10px;
+}
+.content-version {
+    font-size: 16px;
+    color: hsl(201, 11%, 66%);
+    line-height: 25px;
+}
+.sumbit-3 {
+    width: 675px;
+    height: 110px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+#device {
+    width: 905px;
+    height: 575px;
+    background-image: url("../images/image-devices.png");
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+#sumbit-4 {
+    width: 450px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+#mini-container-1 {
+    width: 1105px;
+    height: 210px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.mini-content-1 {
+    width: 335px;
+    height: 210px;
+}
+.mini-content-1 > div {
+    width: 44px;
+    height: 40px;
+    background-image: url(../images/icon-blacklist.svg);
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.mini-content-2 {
+    width: 345px;
+    height: 210px;
+}
+.mini-content-2 > div {
+    width: 36px;
+    height: 32px;
+    background-image: url(../images/icon-text.svg);
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.mini-content-3 {
+    width: 350px;
+    height: 210px;
+}
+.mini-content-3 > div {
+    width: 50px;
+    height: 32px;
+    background-image: url(../images/icon-preview.svg);
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.title-3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content-3 {
+    font-size: 16px;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 29px;
+}
+#mini-container-2 {
+    width: 1112px;
+    height: 56px;
+    margin: 0 auto;
+    margin-bottom: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+#mini-logo-1 {
+    width: 165px;
+    height: 49px;
+    background-image: url(../images/logo-google.png);
+    margin-top: 2px;
+}
+#mini-logo-2 {
+    width: 139px;
+    height: 51px;
+    background-image: url(../images/logo-ibm.png);
+    margin-top: 1px;
+}
+#mini-logo-3 {
+    width: 161px;
+    height: 35px;
+    background-image: url(../images/logo-microsoft.png);
+    margin-top: 9px;
+}
+#mini-logo-4 {
+    width: 135px;
+    height: 56px;
+    background-image: url(../images/logo-hp.png);
+}
+#mini-logo-5 {
+    width: 125px;
+    height: 30px;
+    background-image: url(../images/logo-vector-graphics.png);
+    margin-top: 11px;
+}
+.sumbit-5 {
+    width: 685px;
+    height: 225px;
+    margin: 0 auto;
+}
+.content-4 {
+    margin-bottom: 50px;
+}
+.footer {
+    width: 1440px;
+    height: 150px;
+    margin-top: 150px;
+    border: 1px solid white;
+}
+.about {
+    width: 675px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0 0 165px;
+}
+#logo-0 {
+    width: 55px;
+    height: 55px;
+}
+#logo-0 > img {
+    width: 100%;
+    height: 100%;
+}
+#problem {
+    width: 485px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.problem-1 {
+    width: 95px;
+    height: 60px;
+}
+.problem-2 {
+    width: 120px;
+    height: 60px;
+}
+.problem-3 {
+    width: 100px;
+    height: 60px;
+}
+.title-problem-1,.title-problem-2 {
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    display: block;
+    text-decoration: none;
+}
+.title-problem-1 {
+    margin-bottom: 20px;
+}
+.title-problem-1:hover,.title-problem-2:hover {
+    color: hsl(171, 66%, 44%);
+}
+.link {
+    width: 120px;
+    height: 24px;
+    margin: -35px 0 0 1150px;
+    display: flex;
+    justify-content: space-between;
+}
+#link-f,#link-i {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+#link-t {
+    display: block;
+    width: 24px;
+    height: 20px;
+    margin-top: 1px;
+}
+#link-f > img:hover,#link-t > img:hover,#link-i > img:hover {
+    color: hsl(171, 66%, 44%);
+}
